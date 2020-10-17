@@ -16,7 +16,7 @@ Implementation of sigma-delta ADC conveter in VHDL.
 
 -sigma_delta_tb.vhd (Testbench)
 
--sine_package.vhd; sine_wave.vhd (sinus generator ©Damian Huderek)
+-sine_package.vhd; sine_wave.vhd; sine_wave_tb.vhd (sinus generator with testbench ©Damian Huderek)
 
 -z_delay.vhd (delay module)
 
