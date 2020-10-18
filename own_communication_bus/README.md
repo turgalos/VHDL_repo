@@ -5,25 +5,28 @@ Communication bitsream via Master & Slave:
 11xxxxxxxx0
 
 Master "1" - ready to read
+
 Slave "1" - ready to write
+
 Slave "xxxxxxxx" - measured value of the temperature in binary notation
+
 Master "0" - confirmation 
 
 # Files:
--master.vhd
+- master.vhd
   (master module)
   
- -slave.vhd
+ - slave.vhd
   (slave module)
   
- -temp_sensor.vhd
+ - temp_sensor.vhd
   (tmperature sensor module)
   
- -UE1.vhd
+ - UE1.vhd
   (user logic module)
  
- -TB1.vhd
+ - TB1.vhd
   (testbench)
   
- -force.do
+ - force.do
   (macro)
