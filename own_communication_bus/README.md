@@ -30,3 +30,6 @@ Master "0" - confirmation
   
  - force.do
   (macro)
+  
+  # Comment
+  It would be better to use FSM instead of cntr incrementation.
